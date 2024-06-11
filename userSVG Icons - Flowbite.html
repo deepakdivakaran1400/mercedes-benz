@@ -1,0 +1,68 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/70bac27c03a0b7b1.css" as="style"/><link rel="stylesheet" href="/_next/static/css/70bac27c03a0b7b1.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-486c318d206acd38.js" defer=""></script><script src="/_next/static/chunks/framework-d51ece3d757c7ed2.js" defer=""></script><script src="/_next/static/chunks/main-e3ee4f9da2049d71.js" defer=""></script><script src="/_next/static/chunks/pages/_app-c9dde6405da43a95.js" defer=""></script><script src="/_next/static/chunks/2852872c-3a39461fcf6ae401.js" defer=""></script><script src="/_next/static/chunks/0eceb729-33c9adcd64f1fbc0.js" defer=""></script><script src="/_next/static/chunks/75fc9c18-e9ae95234248f008.js" defer=""></script><script src="/_next/static/chunks/575-84adb7cbfd4cc821.js" defer=""></script><script src="/_next/static/chunks/5926-d4e375191dba07fd.js" defer=""></script><script src="/_next/static/chunks/6429-6fcbbded81ddf5cb.js" defer=""></script><script src="/_next/static/chunks/3626-e0bd463249a5848d.js" defer=""></script><script src="/_next/static/chunks/pages/icons-02146f60cc3b22da.js" defer=""></script><script src="/_next/static/J1Y8kdJnc3zqcIaFvsSwA/_buildManifest.js" defer=""></script><script src="/_next/static/J1Y8kdJnc3zqcIaFvsSwA/_ssgManifest.js" defer=""></script></head><body class="antialiased"><div id="__next"><style>
+      #nprogress {
+        pointer-events: none;
+      }
+      #nprogress .bar {
+        background: rgb(63,131,248);
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 2px;
+      }
+      #nprogress .peg {
+        display: block;
+        position: absolute;
+        right: 0px;
+        width: 100px;
+        height: 100%;
+        box-shadow: 0 0 10px rgb(63,131,248), 0 0 5px rgb(63,131,248);
+        opacity: 1;
+        -webkit-transform: rotate(3deg) translate(0px, -4px);
+        -ms-transform: rotate(3deg) translate(0px, -4px);
+        transform: rotate(3deg) translate(0px, -4px);
+      }
+      #nprogress .spinner {
+        display: block;
+        position: fixed;
+        z-index: 1031;
+        top: 15px;
+        right: 15px;
+      }
+      #nprogress .spinner-icon {
+        width: 18px;
+        height: 18px;
+        box-sizing: border-box;
+        border: solid 2px transparent;
+        border-top-color: rgb(63,131,248);
+        border-left-color: rgb(63,131,248);
+        border-radius: 50%;
+        -webkit-animation: nprogresss-spinner 400ms linear infinite;
+        animation: nprogress-spinner 400ms linear infinite;
+      }
+      .nprogress-custom-parent {
+        overflow: hidden;
+        position: relative;
+      }
+      .nprogress-custom-parent #nprogress .spinner,
+      .nprogress-custom-parent #nprogress .bar {
+        position: absolute;
+      }
+      @-webkit-keyframes nprogress-spinner {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+      @keyframes nprogress-spinner {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style><div class="flex flex-col min-h-screen bg-white dark:bg-gray-900"><div class="h-screen bg-gray-50 dark:bg-gray-900"><div class="flex flex-col justify-center items-center px-6 pt-8 mx-auto md:h-screen pt:mt-0"><svg role="status" class="animate-spin text-blue-200 fill-blue-500 dark:text-blue-600 dark:fill-blue-400 w-10 h-10" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="currentColor"></path><path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentFill"></path></svg></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/icons","query":{},"buildId":"J1Y8kdJnc3zqcIaFvsSwA","runtimeConfig":{},"nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>
